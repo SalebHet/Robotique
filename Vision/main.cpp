@@ -3,10 +3,10 @@
 #include <opencv2/opencv.hpp>
 
 #include "param.h"
-
+#include "image.h"
 #define AFFICHER_COULEUR false
 cv::Mat frame;
-enum color{green,red,yellow};
+
 void onMouse(int event, int x, int y, int, void*)
 {
     if (event == cv::EVENT_LBUTTONDOWN) {

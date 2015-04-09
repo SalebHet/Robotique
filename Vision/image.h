@@ -1,5 +1,9 @@
 #include <opencv2/opencv.hpp>
 
+#include "param.h"
+
+enum color{green,red,yellow};
+
 class image
 {
  public:
